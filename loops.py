@@ -20,3 +20,35 @@ for tuple_item in (1, 2, 3, 4, 5):
 for tuple_item in (1, 2, 3, 4, 5):
     for array_item in ['a', 'b', 'c']:
         print(tuple_item, array_item)
+
+
+#iterable - list, dictionary, tuple, set, string
+# iterate -> go one by one checking each item in the collection
+
+# dictionary:
+
+user = {
+    'name': 'Golem',
+    'age': 5006,
+    'can_swim': False
+}
+
+
+for x in user:
+    print(x)  # name, age, can_swim
+
+for key in user.keys():
+    print(key)  # name, age, can_swim
+
+for value in user.values():
+    print(value)  # Golem, 5006, False
+
+for item in user.items():
+    print(item)  # ('name', 'Golem'), ('age', 5006), ('can_swim', False)
+
+for item in user.items():
+    key, value = item
+    print(key, value)  # name Golem, age 5006, can_swim False
+
+for key, value in user.items():
+    print(key, value)  # name Golem, age 5006, can_swim False
