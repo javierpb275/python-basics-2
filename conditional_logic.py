@@ -20,9 +20,16 @@ cero = 0  # False
 null = None  # False
 
 
-#ternary operator
+# ternary operator
 
 #condition_if_true if condition else condition_if_false
 is_friend = True
 can_message = "message allowed" if is_friend else "not allowed to message"
-print(can_message)#message allowed
+print(can_message)  # message allowed
+
+# short circuiting (or)
+is_Friend = False
+is_User = True
+
+if is_Friend or is_User:
+    print("Welcome")
