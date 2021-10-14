@@ -33,3 +33,13 @@ is_User = True
 
 if is_Friend or is_User:
     print("Welcome")
+
+""" 
+LOGICAL OPERATORS
+  >          >=
+  <          <=
+  ==         !=
+  and        or
+  not 
+"""
+print(not(True))  # False
