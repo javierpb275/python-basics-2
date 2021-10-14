@@ -41,5 +41,32 @@ LOGICAL OPERATORS
   ==         !=
   and        or
   not 
-"""
+
 print(not(True))  # False
+print(not False)  # True
+"""
+
+""" 
+# is vs ==
+
+# == checks for equality of value
+print(True == 1)  # True
+print('' == 1)  # False
+print('1' == 1)  # False
+print(bool([]))# [] is false
+print([] == 1)  # False
+print(10 == 10.0)  # True
+print([] == [])  # True
+print([1,2,3] == [1,2,3])  # True
+
+# is checks if the location in memory is the same
+print(True is 1)  # False
+print('' is 1)  # False
+print('1' is 1)  # False
+print(bool([]))# False
+print([] is 1)  # False
+print(10 is 10.0)  # False
+print([] is [])  # False
+print([1,2,3] is [1,2,3])  # False
+#everytime we create a [], it is created in a new location in memory
+ """
