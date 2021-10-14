@@ -9,3 +9,12 @@ else:
     print('you are not of age!')
 
 print('okok')
+
+#Truthy and Falsey
+
+filled_string = "hello"  # True
+bigger_than_0 = 5  # True
+
+empty_string = ""  # False
+cero = 0  # False
+null = None  # False
