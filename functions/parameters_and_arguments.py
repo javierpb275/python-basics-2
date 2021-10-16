@@ -1,6 +1,11 @@
-#parameters
-def say_sth(sth):
-    print(sth)
+# default parameters
+def say_sth(sth="hello", name="pepe"):
+    print(f'{sth} {name}')
 
-#arguments
-say_sth("hello")
+say_sth()  # hello pepe
+
+# positional arguments (because the position matters)
+say_sth("hello", "pepe")
+
+# keyword arguments
+say_sth(name="paco", sth="hello")
